@@ -1,65 +1,61 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {NavLink} from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import './navbar.css';
 
-export default function Navbar() {
-    return (
-        <>
-            <nav className="navbar sticky-top navbar-expand-lg navbar-light">
-                <div className='container'>
-                <a className="navbar-brand" href={"/design-portfolio/"}>kim t&eacute;llez</a>
-                    <button className="navbar-toggler" type="button" data-toggle="modal" data-target="#sidebarModal" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
-                        <li className="nav-item ml-5">
-                            <NavLink exact activeClassName="active" className="nav-link" to={"/design-portfolio/"}>home</NavLink>
-                        </li>
-                        <li className="nav-item dropdown ml-5">
-                            <button type='button' className="nav-link dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            work
-                            </button>
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <NavLink activeClassName="active" className="dropdown-item" to={"/design-portfolio/readingful-moments/"}>Readingful Moments</NavLink>
-                                <NavLink activeClassName="active" className="dropdown-item" to={"/design-portfolio/postup/"}>PostUp</NavLink>
-                            </div>
-                        </li>
-                        <li className="nav-item ml-5">
-                            <NavLink activeClassName="active" className="nav-link" to={"/design-portfolio/fun/"}>fun</NavLink>
-                        </li>
-                        <li className="nav-item ml-5">
-                            <NavLink activeClassName="active" className="nav-link" to={"/design-portfolio/about/"}>about</NavLink>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="container-fluid">
-            <div class="modal left fade menu" id="sidebarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog position-fixed m-auto" role="document">
-                    <div class="modal-content h-100">
-                        <div class="modal-body p-3">
-                            <div class="nav flex-column">
-                                <NavLink className="nav-link" to={"/design-portfolio/"}>home</NavLink>
-                                <button type='button' className="text-left nav-link dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                work
-                                </button>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <NavLink className="dropdown-item nav-link" to={"/design-portfolio/readingful-moments/"}>Readingful Moments</NavLink>
-                                <NavLink className="dropdown-item nav-link" to={"/design-portfolio/postup/"}>PostUp</NavLink>
-                                </div>
-                                <NavLink className="nav-link" to={"/design-portfolio/fun/"}>fun</NavLink>
-                                <NavLink className="nav-link" to={"/design-portfolio/about/"}>about</NavLink>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+function Navbar() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  return (
+    <>
+      <nav className='navbar sticky-top navbar-expand-lg navbar-light'>
+          <div className='container'>
+      <a className="navbar-brand" href={"/design-portfolio/"}>kim t&eacute;llez</a>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
+        <ul className={click ? 'nav-menu active' : 'navbar-nav nav-menu'}>
+          <li className='nav-item'>
+            <NavLink to={"/design-portfolio/"} exact activeClassName="active" className='nav-link' onClick={closeMobileMenu}>
+              home
+            </NavLink>
+          </li>
+          <li className="nav-item dropdown">
+            <button type='button' className="nav-link btn-clr dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                work
+            </button>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <NavLink activeClassName="active" className="dropdown-item" to={"/design-portfolio/readingful-moments/"} onClick={closeMobileMenu}>Readingful Moments</NavLink>
+                <NavLink activeClassName="active" className="dropdown-item" to={"/design-portfolio/postup/"} onClick={closeMobileMenu}>PostUp</NavLink>
+            </div>
+          </li>
+          <li className='nav-item'>
+            <NavLink
+              to={"/design-portfolio/fun/"}
+              className='nav-link'
+              activeClassName="active"
+              onClick={closeMobileMenu}
+            >
+              fun
+            </NavLink>
+          </li>
+          <li className='nav-item'>
+            <NavLink
+              to={"/design-portfolio/about/"}
+              className='nav-link'
+              activeClassName="active"
+              onClick={closeMobileMenu}
+            >
+              about
+            </NavLink>
+          </li>
+        </ul>
+        </div>
+      </nav>
     </>
-    );
+  );
 }
+
+export default Navbar;
