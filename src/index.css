@@ -1,0 +1,16 @@
+* {
+  color: #0B4957;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Sarabun', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Sarabun', sans-serif,
+    monospace;
+}
