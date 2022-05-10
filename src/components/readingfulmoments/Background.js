@@ -10,7 +10,7 @@ export default function Background() {
                 </div>
                 <h3>Background</h3>
                 <div className="row">
-                    <div className="col-sm-8 col-md-8 col-lg-8 pt-5">
+                    <div className="col-sm-8 col-md-8 col-lg-8 pt-4">
                         <h6>OVERVIEW</h6>
                         <p className="pr-5">
                             Set goals. Track habits. Create meaningful, Readingful Moments.<br /><br />

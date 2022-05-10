@@ -10,7 +10,7 @@ export default function Day1() {
                 </div>
                 <h3>Background</h3>
                 <div className="row">
-                    <div className="col-sm-8 col-md-8 col-lg-8 pt-5">
+                    <div className="col-sm-8 col-md-8 col-lg-8 pt-4">
                         <h6 className="h62">OVERVIEW</h6>
                         <p className="pr-5">
                         What if you could see the floor plan of a public space before you choose a place to post up and work for a few hours?<br /><br />
