@@ -1,5 +1,6 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
@@ -40,16 +41,16 @@ export default function Navbar() {
                     <div class="modal-content h-100">
                         <div class="modal-body p-3">
                             <div class="nav flex-column">
-                                <a className="nav-link" href="/design-portfolio/">home</a>
+                                <Link className="nav-link" to="/design-portfolio/">home</Link>
                                 <button type='button' className="text-left nav-link dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 work
                                 </button>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href="/design-portfolio/readingful-moments/">Readingful Moments</a>
-                                <a className="dropdown-item" href="/design-portfolio/postup/">PostUp</a>
+                                <Link className="dropdown-item" to="/design-portfolio/readingful-moments/">Readingful Moments</Link>
+                                <Link className="dropdown-item" to="/design-portfolio/postup/">PostUp</Link>
                                 </div>
-                                <a className="nav-link" href="/design-portfolio/fun/">fun</a>
-                                <a className="nav-link" href="/design-portfolio/about/">about</a>
+                                <Link className="nav-link" to="/design-portfolio/fun/">fun</Link>
+                                <Link className="nav-link" to="/design-portfolio/about/">about</Link>
                             </div>
                         </div>
                         <div class="modal-footer">
