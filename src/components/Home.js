@@ -18,7 +18,7 @@ export default function Home() {
             </div>
             <h5 className="pb-3">recent work</h5>
             <br />
-            <a className="text-decoration-none shadow" href="/readingful-moments/">
+            <a className="text-decoration-none shadow" href="/design-portfolio/readingful-moments/">
                 <div className="container box-caption1">
                     <div className="row">
                         <div className="col-lg-4 col-md-5 col-sm pt-5 d-flex align-items-end justify-content-center">
@@ -32,7 +32,7 @@ export default function Home() {
                 </div>
             </a>
             <br /><br />
-            <a className="text-decoration-none" href="/postup/">
+            <a className="text-decoration-none" href="/design-portfolio/postup/">
                 <div className="container box-caption2">
                     <div className="row">
                         <div className="col-lg-4 col-md-5 col-sm pt-5 d-flex align-items-end justify-content-center">
