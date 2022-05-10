@@ -7,7 +7,7 @@ export default function Navbar() {
         <>
             <nav className="navbar sticky-top navbar-expand-lg navbar-light">
                 <div className='container'>
-                <Link className="text-decoration-none navbar-brand" to="/design-portfolio/">kim t&eacute;llez</Link>
+                <a className="navbar-brand" href={"/design-portfolio/"}>kim t&eacute;llez</a>
                     <button className="navbar-toggler" type="button" data-toggle="modal" data-target="#sidebarModal" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
