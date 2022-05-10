@@ -2,6 +2,7 @@ import React from "react";
 import readingful from "../img/readingfulPreview.png";
 import postup from "../img/postPreview.png";
 import header from "../img/header.gif";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -18,7 +19,7 @@ export default function Home() {
             </div>
             <h5 className="pb-3">recent work</h5>
             <br />
-            <a className="text-decoration-none shadow" href="/design-portfolio/readingful-moments/">
+            <Link className="text-decoration-none" to="/design-portfolio/readingful-moments/">
                 <div className="container box-caption1">
                     <div className="row">
                         <div className="col-lg-4 col-md-5 col-sm pt-5 d-flex align-items-end justify-content-center">
@@ -30,9 +31,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </a>
+            </Link>
             <br /><br />
-            <a className="text-decoration-none" href="/design-portfolio/postup/">
+            <Link className="text-decoration-none" to="/design-portfolio/postup/">
                 <div className="container box-caption2">
                     <div className="row">
                         <div className="col-lg-4 col-md-5 col-sm pt-5 d-flex align-items-end justify-content-center">
@@ -44,7 +45,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </a>
+            </Link>
         </div>
         </>
     );
