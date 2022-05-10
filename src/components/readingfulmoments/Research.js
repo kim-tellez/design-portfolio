@@ -7,17 +7,18 @@ export default function Research() {
             <div className="container-fluid research pt-5 pb-5">
                 <div className="container">
                     <h3>Research</h3>
-                    <p className="mt-4">
-                        Nearly 66% of 4th graders read below grade level in the United States, 
-                        and research shows that not being read to at home before learning how to read at school is a contributing factor. <br /><br />
-                        To better understand parents' needs and pain points in setting up a habit of reading at home, <b>I interviewed 5 parents of elementary-school-aged children:</b>
-                    </p>
-                    <ul>
-                        <li><b>Potential users were recruited and screened with a Screener Survey,</b> resulting in identifying 5 potential users to interview</li>
-                        <li><b>Remote user interviews were conducted &amp; recorded via Zoom,</b> resulting in about 3 hrs of recorded interview data</li>
-                        <li><b>All interviews were transcribed and coded,</b> resulting in about 30 pages of transcribed data</li>
-                    </ul>
-
+                        <div className="whitebg">
+                        <p className="mt-4">
+                            Nearly 66% of 4th graders read below grade level in the United States, 
+                            and research shows that not being read to at home before learning how to read at school is a contributing factor. <br /><br />
+                            To better understand parents' needs and pain points in setting up a habit of reading at home, <b>I interviewed 5 parents of elementary-school-aged children:</b>
+                        </p>
+                        <ul>
+                            <li><b>Potential users were recruited and screened with a Screener Survey,</b> resulting in identifying 5 potential users to interview</li>
+                            <li><b>Remote user interviews were conducted &amp; recorded via Zoom,</b> resulting in about 3 hrs of recorded interview data</li>
+                            <li><b>All interviews were transcribed and coded,</b> resulting in about 30 pages of transcribed data</li>
+                        </ul>
+                    </div>
                     <h4 className="mt-4 mb-4">Synthesizing My Research</h4>
                     <div className="d-flex justify-content-center">
                         <figure className="figure">

@@ -40,16 +40,16 @@ export default function Navbar() {
                     <div class="modal-content h-100">
                         <div class="modal-body p-3">
                             <div class="nav flex-column">
-                                <a className="nav-link" href={'/design-portfolio/'}>home</a>
+                                <a className="nav-link" href="/">home</a>
                                 <button type='button' className="text-left nav-link dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 work
                                 </button>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href={'/design-portfolio/readingful-moments/'}>Readingful Moments</a>
-                                <a className="dropdown-item" href={'/design-portfolio/postup/'}>PostUp</a>
+                                <a className="dropdown-item" href="/readingful-moments/">Readingful Moments</a>
+                                <a className="dropdown-item" href="/postup/">PostUp</a>
                                 </div>
-                                <a className="nav-link" href={'/design-portfolio/fun/'}>fun</a>
-                                <a className="nav-link" href={'/design-portfolio/about'}>about</a>
+                                <a className="nav-link" href="/fun/">fun</a>
+                                <a className="nav-link" href="/about/">about</a>
                             </div>
                         </div>
                         <div class="modal-footer">

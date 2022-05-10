@@ -21,11 +21,11 @@ export default function Home() {
             <br />
             <Link className="text-decoration-none" to="/design-portfolio/readingful-moments/">
                 <div className="container box-caption1">
-                    <div className="row">
-                        <div className="col-lg-4 col-md-5 col-sm pt-5 d-flex align-items-end justify-content-center">
+                    <div className="row flex-lg-row-reverse flex-md-row-reverse flex-sm-row">
+                        <div className="col-lg-4 col-md-5 col-sm-5 d-flex align-items-end justify-content-center pt-5 order-1">
                             <img className="img-fluid" alt="Readingful Moments" src={readingful} />
                         </div>
-                        <div className="col-lg-8 col-md-7 col-sm p-5">
+                        <div className="col-lg-8 col-md-7 col-sm pt-5 pl-5 order-0">
                             <h1 className="pt-5 h12">Readingful Moments</h1><br />
                             <p className="pt-3">How might we make it easier for parents to be intentional about fitting reading with their children into their busy days?</p>
                         </div>
@@ -35,11 +35,11 @@ export default function Home() {
             <br /><br />
             <Link className="text-decoration-none" to="/design-portfolio/postup/">
                 <div className="container box-caption2">
-                    <div className="row">
-                        <div className="col-lg-4 col-md-5 col-sm pt-5 d-flex align-items-end justify-content-center">
+                    <div className="row flex-lg-row-reverse flex-md-row-reverse flex-sm-row">
+                        <div className="col-lg-4 col-md-5 col-sm-5 d-flex align-items-end justify-content-center pt-5 order-1">
                             <img className="img-fluid" alt="PostUp" src={postup} />
                         </div>
-                        <div className="col-lg-8 col-md-7 col-sm col-xs-7 p-5">
+                        <div className="col-lg-8 col-md-7 col-sm col-xs-7 pt-5 pl-5 order-0">
                             <h1 className="pt-5 h12">PostUp</h1><br />
                             <p className="pt-3">How might we help people find public spaces to work from remotely?</p>
                         </div>

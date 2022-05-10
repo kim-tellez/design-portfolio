@@ -54,7 +54,7 @@ export default function Day5() {
                     <div className="col-lg-1 col-md-1 col-sm-1"></div>
                     <div className="col-lg-5 col-md-5 col-sm-5">
                         <div className="d-flex justify-content-center"><a href="https://www.figma.com/proto/Cl0f8TcCO6UliH9abevpaZ/Post-Up-Prototype?node-id=1%3A2&amp;scaling=scale-down&amp;page-id=0%3A1&amp;starting-point-node-id=39%3A2368&amp;show-proto-sidebar=1" target="_blank" rel="noreferrer">
-                            <img className="img-fluid" alt="Click for an Interactive Prototype" src={usability} />
+                            <img className="img-fluid pb-3" alt="Click for an Interactive Prototype" src={usability} />
                             <div className="text-center"><p className="btn active button mt-4">See Prototype</p></div>
                         </a></div>
                     

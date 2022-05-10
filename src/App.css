@@ -73,6 +73,10 @@ nav {
   background-color: white;
 }
 
+.whitebg {
+  background: rgba(255,255,255,.5)
+}
+
 .footer {
   color: #0B4957;
 }

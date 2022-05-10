@@ -68,7 +68,7 @@ export default function Usability() {
                     <div className="col-lg-1 col-md-1 col-sm-1"></div>
                     <div className="col-lg-5 col-md-5 col-sm-5 pt-3">
                         <div className="d-flex justify-content-center"><a href="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIQai1EpRWdQyX1pVGwtRcu%2FReadingful-Moments-P2%3Fnode-id%3D2%253A8037%26starting-point-node-id%3D2%253A10623" target="_blank" rel="noreferrer">
-                            <img className="img-fluid" alt="Click for an Interactive Prototype" src={uphone} />
+                            <img className="img-fluid pb-5" alt="Click for an Interactive Prototype" src={uphone} />
                             <div className="text-center"><p className="btn active button mt-4">See Prototype</p></div>
                         </a></div>
                     </div>
