@@ -25,7 +25,7 @@ export default function Home() {
                             <img className="img-fluid" alt="Readingful Moments" src={readingful} />
                         </div>
                         <div className="col-lg-8 col-md-7 col-sm p-5">
-                            <h1 className="pt-5">Readingful Moments</h1><br />
+                            <h1 className="pt-5 h12">Readingful Moments</h1><br />
                             <p className="pt-3">How might we make it easier for parents to be intentional about fitting reading with their children into their busy days?</p>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ export default function Home() {
                             <img className="img-fluid" alt="PostUp" src={postup} />
                         </div>
                         <div className="col-lg-8 col-md-7 col-sm col-xs-7 p-5">
-                            <h1 className="pt-5">PostUp</h1><br />
+                            <h1 className="pt-5 h12">PostUp</h1><br />
                             <p className="pt-3">How might we help people find public spaces to work from remotely?</p>
                         </div>
                     </div>
