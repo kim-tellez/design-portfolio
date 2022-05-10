@@ -14,11 +14,11 @@ export default function App() {
     <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/readingful-moments/" element={<ReadingfulMoments />}></Route>
-          <Route path="/postup/" element={<PostUp />}></Route>
-          <Route path="/fun/" element={<Fun />}></Route>
-          <Route path="/about/" element={<About />}></Route>
+          <Route path="/design-portfolio/" element={<Home />}></Route>
+          <Route path="/design-portfolio/readingful-moments/" element={<ReadingfulMoments />}></Route>
+          <Route path="/design-portfolio/postup/" element={<PostUp />}></Route>
+          <Route path="/design-portfolio/fun/" element={<Fun />}></Route>
+          <Route path="/design-portfolio/about/" element={<About />}></Route>
         </Routes>
         <Footer />
     </Router>
