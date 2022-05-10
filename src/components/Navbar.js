@@ -22,7 +22,7 @@ export default function Navbar() {
                             </button>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <NavLink activeClassName="active" className="dropdown-item" to={"/design-portfolio/readingful-moments/"}>Readingful Moments</NavLink>
-                                <NavLink activeClassName="active" className="dropdown-item" to='{"/design-portfolio/postup/"}'>PostUp</NavLink>
+                                <NavLink activeClassName="active" className="dropdown-item" to={"/design-portfolio/postup/"}>PostUp</NavLink>
                             </div>
                         </li>
                         <li className="nav-item ml-5">
@@ -41,16 +41,16 @@ export default function Navbar() {
                     <div class="modal-content h-100">
                         <div class="modal-body p-3">
                             <div class="nav flex-column">
-                                <a className="nav-link" href={"/design-portfolio/"}>home</a>
+                                <NavLink className="nav-link" href={"/design-portfolio/"}>home</NavLink>
                                 <button type='button' className="text-left nav-link dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 work
                                 </button>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href={"/design-portfolio/readingful-moments/"}>Readingful Moments</a>
-                                <a className="dropdown-item" href={"/design-portfolio/postup/"}>PostUp</a>
+                                <NavLink className="dropdown-item nav-link" href={"/design-portfolio/readingful-moments/"}>Readingful Moments</NavLink>
+                                <NavLink className="dropdown-item nav-link" href={"/design-portfolio/postup/"}>PostUp</NavLink>
                                 </div>
-                                <a className="nav-link" href={"/design-portfolio/fun/"}>fun</a>
-                                <a className="nav-link" href={"/design-portfolio/about/"}>about</a>
+                                <NavLink className="nav-link" href={"/design-portfolio/fun/"}>fun</NavLink>
+                                <NavLink className="nav-link" href={"/design-portfolio/about/"}>about</NavLink>
                             </div>
                         </div>
                         <div class="modal-footer">
