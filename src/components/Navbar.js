@@ -14,22 +14,22 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                         <li className="nav-item ml-5">
-                            <NavLink exact activeClassName="active" className="nav-link" to='/design-portfolio/'>home</NavLink>
+                            <NavLink exact activeClassName="active" className="nav-link" to={"/design-portfolio/"}>home</NavLink>
                         </li>
                         <li className="nav-item dropdown ml-5">
                             <button type='button' className="nav-link dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             work
                             </button>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <NavLink activeClassName="active" className="dropdown-item" to='/design-portfolio/readingful-moments/'>Readingful Moments</NavLink>
-                                <NavLink activeClassName="active" className="dropdown-item" to='/design-portfolio/postup/'>PostUp</NavLink>
+                                <NavLink activeClassName="active" className="dropdown-item" to={"/design-portfolio/readingful-moments/"}>Readingful Moments</NavLink>
+                                <NavLink activeClassName="active" className="dropdown-item" to='{"/design-portfolio/postup/"}'>PostUp</NavLink>
                             </div>
                         </li>
                         <li className="nav-item ml-5">
-                            <NavLink activeClassName="active" className="nav-link" to='/design-portfolio/fun/'>fun</NavLink>
+                            <NavLink activeClassName="active" className="nav-link" to={"/design-portfolio/fun/"}>fun</NavLink>
                         </li>
                         <li className="nav-item ml-5">
-                            <NavLink activeClassName="active" className="nav-link" to='/design-portfolio/about/'>about</NavLink>
+                            <NavLink activeClassName="active" className="nav-link" to={"/design-portfolio/about/"}>about</NavLink>
                         </li>
                         </ul>
                     </div>
@@ -41,16 +41,16 @@ export default function Navbar() {
                     <div class="modal-content h-100">
                         <div class="modal-body p-3">
                             <div class="nav flex-column">
-                                <a className="nav-link" href="/">home</a>
+                                <a className="nav-link" href={"/design-portfolio/"}>home</a>
                                 <button type='button' className="text-left nav-link dropdown-toggle btn btn-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 work
                                 </button>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href="/readingful-moments/">Readingful Moments</a>
-                                <a className="dropdown-item" href="/postup/">PostUp</a>
+                                <a className="dropdown-item" href={"/design-portfolio/readingful-moments/"}>Readingful Moments</a>
+                                <a className="dropdown-item" href={"/design-portfolio/postup/"}>PostUp</a>
                                 </div>
-                                <a className="nav-link" href="/fun/">fun</a>
-                                <a className="nav-link" href="/about/">about</a>
+                                <a className="nav-link" href={"/design-portfolio/fun/"}>fun</a>
+                                <a className="nav-link" href={"/design-portfolio/about/"}>about</a>
                             </div>
                         </div>
                         <div class="modal-footer">
