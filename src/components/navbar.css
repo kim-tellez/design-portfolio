@@ -11,6 +11,9 @@
       color:#0B4957;
   }
 
+  a.nav-link.active{
+    color: #0B4957;
+  }
 
   .nav-menu {
     display: grid;
