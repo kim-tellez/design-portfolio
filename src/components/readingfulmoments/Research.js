@@ -22,7 +22,7 @@ export default function Research() {
                     <h4 className="mt-4 mb-4">Synthesizing My Research</h4>
                     <div className="d-flex justify-content-center">
                         <figure className="figure">
-                            <a href={thematic} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img src={thematic} className="figure-img img-fluid" alt="Thematic Analysis 1." /></a>
+                            <a href={thematic} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img src={thematic} className="figure-img img-fluid" alt="Thematic Analysis 1." /></a>
                             <figcaption className="figure-caption">I used Miro to visualize &amp; organize my findings into themes.</figcaption>
                         </figure>
                     </div>

@@ -14,7 +14,7 @@ export default function Fun() {
 
                 <div className="row">
                     <div className="col-lg-7 col-md-auto col-sm-auto pb-3">
-                    <a href={persona1} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Persona 1, Jackie &amp; Jaime!" src={persona1} /></a>
+                    <a href={persona1} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Persona 1, Jackie &amp; Jaime!" src={persona1} /></a>
                     </div>
                     <div className="col-lg-4 col-md-auto col-sm-auto align-self-center box-caption mb-5 p-3">
                         <h4 className="text-center">Defining the MVP for <br />Jackie &amp; Jaime:</h4><br/>
@@ -35,7 +35,7 @@ export default function Fun() {
                         </ul>
                     </div>
                     <div className="col-lg-7 col-md-auto col-sm-auto d-flex justify-content-lg-end order-0 pt-3">
-                    <a href={persona2} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Persona 2, Suzanne &amp; Tena!" src={persona2} /></a>
+                    <a href={persona2} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Persona 2, Suzanne &amp; Tena!" src={persona2} /></a>
                     </div>
                 </div>
             </div>    

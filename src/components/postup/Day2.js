@@ -13,7 +13,7 @@ export default function Day2() {
                     I also looked at Zillow and Booking.com because they are also tools that people use to find places.
                 </p>
                 <h4 className="mt-5 mb-5">Gathering Inspiration: Solo Lightning Demo</h4>
-                <div className="d-flex justify-content-center"><a href={demos} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Solo Lightning Demos" src={demos} /></a></div>
+                <div className="d-flex justify-content-center"><a href={demos} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Solo Lightning Demos" src={demos} /></a></div>
                 <p className="pt-4">As I browsed through all of these apps, I was making observations that were relevant to my design brief. I was looking out for:</p>
                 <ul>
                     <li>What information is given to users? What's missing?</li>
@@ -24,7 +24,7 @@ export default function Day2() {
                 <div className="row justify-content-center">
                     <div className="col-lg-1 col-md-0 col-sm-0"></div>
                     <div className="col-lg-4 col-md-6 col-md-6 pb-3">
-                        <a href={ideation} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Rapid Ideation" src={ideation} /></a>
+                        <a href={ideation} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Rapid Ideation" src={ideation} /></a>
                         <h5 className="normal pt-4 pb-3">Round 1: Rapid Ideation</h5>
                         <ul>
                             <li>I timed each initial sketch to 1 minute</li>
@@ -35,7 +35,7 @@ export default function Day2() {
                     </div>
                     <div className="col-lg-1 col-md-0 col-sm-0"></div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <a href={sketch} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Solution Sketch" src={sketch} /></a>
+                        <a href={sketch} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Solution Sketch" src={sketch} /></a>
                         <h5 className="normal pt-4 pb-3">Round 2: Create a Solution Sketch</h5>
                         <p>I chose to refine the fourth version of my sketches which features:</p>
                         <ul>

@@ -27,10 +27,10 @@ export default function Brand() {
                 <a href={logo1} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img src={logo1} className="img-fluid" alt="Logo Prototype 1" /></a>
                 </div>
                 <div className="d-flex justify-content-center pb-4">
-                <a href={logo2} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img src={logo2} className="img-fluid" alt="Logo Transformation" /></a>
+                <a href={logo2} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img src={logo2} className="img-fluid" alt="Logo Transformation" /></a>
                 </div>
                 <h4 className="pb-4">High-Fidelity Screens</h4>
-                <div className="d-flex justify-content-center pb-5"><a href={hifi} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img src={hifi} className="img-fluid" alt="High-Fidelity Screens" /></a></div>
+                <div className="d-flex justify-content-center pb-5"><a href={hifi} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img src={hifi} className="img-fluid" alt="High-Fidelity Screens" /></a></div>
             </div>  
         </div>    
     );

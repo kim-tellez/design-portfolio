@@ -16,20 +16,20 @@ export default function Day4() {
                 <div className="row pt-4">
                     <div className="col-lg-4 col-md-4 col-sm-4">
                         <p><b>Quick-select: </b>pins show recommended locations nearby.</p>
-                        <div className="d-flex justify-content-center"><a href={quick} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Quick-select" src={quick} /></a></div>
+                        <div className="d-flex justify-content-center"><a href={quick} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Quick-select" src={quick} /></a></div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4">
                         <p><b>Search: </b>users can find more specific options by searching.</p>
-                        <div className="d-flex justify-content-center"><a href={search} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Search" src={search} /></a></div>
+                        <div className="d-flex justify-content-center"><a href={search} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Search" src={search} /></a></div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4">
                         <p><b>Detailed View: </b>users can view a location's images and amentities</p>
-                        <div className="d-flex justify-content-center"><a href={detail} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Detailed View" src={detail} /></a></div>
+                        <div className="d-flex justify-content-center"><a href={detail} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Detailed View" src={detail} /></a></div>
                     </div>
                 </div>
                 <h4 className="mb-5">Making Blueprints From Modular Components</h4>
-                <div className="d-flex justify-content-center"><a href={blueprint} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Window Seat Cafe Blueprint" src={blueprint} /></a></div>
-                <div className="d-flex justify-content-center"><a href={component} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Modular Component" src={component} /></a></div>
+                <div className="d-flex justify-content-center"><a href={blueprint} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Window Seat Cafe Blueprint" src={blueprint} /></a></div>
+                <div className="d-flex justify-content-center"><a href={component} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid pb-5" alt="Modular Component" src={component} /></a></div>
 
 
 

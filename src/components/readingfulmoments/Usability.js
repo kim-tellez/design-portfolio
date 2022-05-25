@@ -34,7 +34,7 @@ export default function Usability() {
                     </div>
                     <div className="col-lg-1 col-md-1 col-sm-1"></div>
                     <div className="col-lg-5 col-md-5 col-sm-5">
-                        <a href={usability} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Usability Issues, Priorities, and Recommendations" src={usability} /></a>
+                        <a href={usability} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Usability Issues, Priorities, and Recommendations" src={usability} /></a>
                     </div>
                 </div>
 

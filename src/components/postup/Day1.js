@@ -16,7 +16,7 @@ export default function Day1() {
                 <h4 className="mt-5 mb-5">Synthesizing Prior Research</h4>
                 <div className="row">
                     <div className="col-lg-5 col-md-auto col-sm-auto pb-3">
-                    <a href={synthesize} className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Synthesizing Prior Research" src={synthesize} /></a>
+                    <a href={synthesize} target="_blank" rel="noreferrer" className="MagicThumb" data-options="expandEasing:cubic-bezier(.09,.63,0,.99);"><img className="img-fluid" alt="Synthesizing Prior Research" src={synthesize} /></a>
                     </div>
                     <div className="col-lg-7 col-md-auto col-sm-auto mb-5">
                         <p>One of the biggest user pain points that I noticed is that users struggle to determine whether a place has the amenities that they need. These include:</p>
